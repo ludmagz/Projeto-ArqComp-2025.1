@@ -20,7 +20,7 @@ module alu#(
                 4'b0001:  // OR :)
                         ALUResult = SrcA | SrcB;
                 4'b0010:  // ADD e ADDI :)
-                        ALUResult = SrcA + SrcB;
+                        ALUResult = $signed(SrcA) + $signed(SrcB);
                 4'b0011:  // XOR :)
                         ALUResult = SrcA ^ SrcB;
                 4'b0100:   // SLLI :)
@@ -36,7 +36,7 @@ module alu#(
                 4'b1001:  // BGE :)
                         ALUResult = (SrcA >= SrcB) ? 1 : 0;
                 4'b1100:  // BLT | SLT | SLTI :)
-                        ALUResult = (SrcA < SrcB) ? 1 : 0;
+                        ALUResult = ($signed(SrcA) < $signed(SrcB)) ? 1 : 0;
                         
                 default:
                         ALUResult = 0;
