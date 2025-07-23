@@ -15,28 +15,30 @@ module alu#(
         always_comb
         begin
             case(Operation)
-                4'b0000:  // AND :)
+                4'b0000:  // AND
                         ALUResult = SrcA & SrcB;
-                4'b0001:  // OR :)
+                4'b0001:  // OR
                         ALUResult = SrcA | SrcB;
-                4'b0010:  // ADD e ADDI :)
+                4'b0010:  // ADD | ADDI
                         ALUResult = $signed(SrcA) + $signed(SrcB);
-                4'b0011:  // XOR :)
+                4'b0011:  // XOR
                         ALUResult = SrcA ^ SrcB;
-                4'b0100:   // SLLI :)
+                4'b0100:   // SLLI
                         ALUResult = SrcA << SrcB;    
-                4'b0101:   // SRLI :)
+                4'b0101:   // SRLI
                         ALUResult = SrcA >> SrcB;        
-                4'b0110:  // SUB :)
+                4'b0110:  // SUB
                         ALUResult = SrcA - SrcB;
-                4'b0111:   // SRAI :)
+                4'b0111:   // SRAI
                         ALUResult = $signed(SrcA) >>> SrcB[4:0]; // LIMITA O SHIFT PRA NAO ALTERAR TUDO [31:20]
-                4'b1000:  // BEQ :)
+                4'b1000:  // BEQ
                         ALUResult = (SrcA == SrcB) ? 1 : 0;
-                4'b1001:  // BGE :)
+                4'b1001:  // BGE
                         ALUResult = (SrcA >= SrcB) ? 1 : 0;
-                4'b1100:  // BLT | SLT | SLTI :)
+                4'b1100:  // BLT | SLT | SLTI
                         ALUResult = ($signed(SrcA) < $signed(SrcB)) ? 1 : 0;
+                4'b1101: // BNE
+                        ALUResult = ($signed(SrcA) != $signed(SrcB)) ? 1 : 0;
                         
                 default:
                         ALUResult = 0;
