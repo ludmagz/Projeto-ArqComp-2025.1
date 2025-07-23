@@ -28,7 +28,7 @@ Seu objetivo é implementar as instruções restantes listadas abaixo:
 |---|-----------|:-----------:|:-------:|:-----------:|
 | 1  | `JAL`     |      ❌     |    ❌    |      ❌      |
 | 2  | `JALR`    |      ❌     |    ❌    |      ❌      |
-| 3  | `BNE`     |      ✅     |    ❌    |      ❌      |
+| 3  | `BNE`     |      ✅     |    ✅    |      ✅      |
 | 4  | `BLT`     |      ✅     |    ❌    |      ❌      |
 | 5  | `BGE`     |      ✅     |    ❌    |      ❌      |
 | 6  | `LB`      |      ✅     |    ✅    |      ✅      |
