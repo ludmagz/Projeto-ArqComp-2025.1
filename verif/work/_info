@@ -8,10 +8,10 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/Users/tta2/Desktop/Projeto-ArqComp-2025.1-main/verif
+Z0 dD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/verif
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1752090784
+Z2 !s110 1753291688
 !i10b 1
 !s100 J@Bf42a<9Q9R;nJSZl2>B2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -19,7 +19,7 @@ IZ:4UR3bSaIa;]mF0d9zbS1
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-Z5 w1752087167
+Z5 w1753288821
 8./../design/adder.sv
 F./../design/adder.sv
 !i122 0
@@ -28,63 +28,63 @@ Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1752090784.000000
+Z8 !s108 1753291688.000000
 !s107 ./tb_top.sv|./../design/RISC_V.sv|./../design/Datapath.sv|./../design/instructionmemory.sv|./../design/datamemory.sv|./../design/mux4.sv|./../design/mux2.sv|./../design/imm_Gen.sv|./../design/HazardDetection.sv|./../design/ForwardingUnit.sv|./../design/flopr.sv|./../design/Controller.sv|./../design/BranchUnit.sv|./../design/ALUController.sv|./../design/alu.sv|./../design/RegFile.sv|./../design/RegPack.sv|./../design/Memoria32Data.sv|./../design/Memoria32.sv|./../design/ramOnChipData.v|./../design/ramOnChip32.v|./../design/adder.sv|
 Z9 !s90 -reportprogress|300|-f|compile_verilog|
 !i113 1
 Z10 tCvgOpt 0
 valu
 R1
-Z11 !s110 1752090785
+R2
 !i10b 1
-!s100 PNgzS263K8`G2=d?SThS_3
+!s100 :oRXk>6<B58A]eh8H_FUi2
 R3
-I:kXC5K^0e?@NS`04f4SjI0
+IPBeK8Yh_bHIFlOm=N5?[h3
 R4
 S1
 R0
-w1752090772
+w1753291396
 8./../design/alu.sv
 F./../design/alu.sv
 !i122 0
-L0 3 43
+L0 3 45
 R7
 r1
 !s85 0
 31
 R8
-Z12 !s107 ./tb_top.sv|./../design/RISC_V.sv|./../design/Datapath.sv|./../design/instructionmemory.sv|./../design/datamemory.sv|./../design/mux4.sv|./../design/mux2.sv|./../design/imm_Gen.sv|./../design/HazardDetection.sv|./../design/ForwardingUnit.sv|./../design/flopr.sv|./../design/Controller.sv|./../design/BranchUnit.sv|./../design/ALUController.sv|./../design/alu.sv|./../design/RegFile.sv|./../design/RegPack.sv|./../design/Memoria32Data.sv|./../design/Memoria32.sv|./../design/ramOnChipData.v|./../design/ramOnChip32.v|./../design/adder.sv|
+Z11 !s107 ./tb_top.sv|./../design/RISC_V.sv|./../design/Datapath.sv|./../design/instructionmemory.sv|./../design/datamemory.sv|./../design/mux4.sv|./../design/mux2.sv|./../design/imm_Gen.sv|./../design/HazardDetection.sv|./../design/ForwardingUnit.sv|./../design/flopr.sv|./../design/Controller.sv|./../design/BranchUnit.sv|./../design/ALUController.sv|./../design/alu.sv|./../design/RegFile.sv|./../design/RegPack.sv|./../design/Memoria32Data.sv|./../design/Memoria32.sv|./../design/ramOnChipData.v|./../design/ramOnChip32.v|./../design/adder.sv|
 R9
 !i113 1
 R10
 vALUController
 R1
-R11
+R2
 !i10b 1
-!s100 cmU^_V3hdlV1EWD[F<JBh3
+!s100 3J6=Z85?>S^<0i^b1P2_X2
 R3
-IGJS?<4<_oF9ng2PBjBS720
+ILR<]jiR8zff]I_Jn3AoJG3
 R4
 S1
 R0
-w1752090190
+w1753291379
 8./../design/ALUController.sv
 F./../design/ALUController.sv
 !i122 0
-L0 8 34
+L0 8 39
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@a@l@u@controller
 vBranchUnit
 R1
-R11
+R2
 !i10b 1
 !s100 6mfj04GQ4<NdfP3N3I?:l2
 R3
@@ -102,14 +102,14 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@branch@unit
 vController
 R1
-R11
+R2
 !i10b 1
 !s100 J0;ndNiB8VKGgGijK7UDc3
 R3
@@ -127,18 +127,18 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@controller
 vdatamemory
 R1
-R11
+R2
 !i10b 1
-!s100 :U7:`NI4[Mdm`JaQ@69]m0
+!s100 PB?AGW4Dkm7[LMo5:bz002
 R3
-I9omj[enZ`o9BjfP37EobG1
+IJzEJhjC<c_7;n0O=iZYYk0
 R4
 S1
 R0
@@ -146,21 +146,21 @@ R5
 8./../design/datamemory.sv
 F./../design/datamemory.sv
 !i122 0
-L0 3 55
+L0 3 100
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 vDatapath
 R1
-Z13 DXx4 work 16 Pipe_Buf_Reg_PKG 0 22 CP`NR8^c2NX`Y1z<Jz9aB2
+Z12 DXx4 work 16 Pipe_Buf_Reg_PKG 0 22 CP`NR8^c2NX`Y1z<Jz9aB2
 DXx4 work 16 Datapath_sv_unit 0 22 gK[1QCkf2n5n=M6K0GhRR3
-R11
+R2
 R4
 r1
 !s85 0
@@ -171,22 +171,22 @@ I[FcU4Z6AKg`kEhYdYRGFS2
 S1
 R0
 R5
-Z14 8./../design/Datapath.sv
-Z15 F./../design/Datapath.sv
+Z13 8./../design/Datapath.sv
+Z14 F./../design/Datapath.sv
 !i122 0
 L0 5 312
 R7
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@datapath
 XDatapath_sv_unit
 R1
-R13
-R11
+R12
+R2
 VgK[1QCkf2n5n=M6K0GhRR3
 r1
 !s85 0
@@ -197,21 +197,21 @@ IgK[1QCkf2n5n=M6K0GhRR3
 S1
 R0
 R5
+R13
 R14
-R15
 !i122 0
 L0 3 0
 R7
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@datapath_sv_unit
 vflopr
 R1
-R11
+R2
 !i10b 1
 !s100 ElcDNl85mGL9dF?Xd3Za63
 R3
@@ -229,13 +229,13 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 vForwardingUnit
 R1
-R11
+R2
 !i10b 1
 !s100 CEcEo:_iR9UO6Xd4H`cAC3
 R3
@@ -253,14 +253,14 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@forwarding@unit
 vHazardDetection
 R1
-R11
+R2
 !i10b 1
 !s100 =:@:A`@P^b2GYnY^68bZa2
 R3
@@ -278,14 +278,14 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@hazard@detection
 vimm_Gen
 R1
-R11
+R2
 !i10b 1
 !s100 ]o6i0FGm_V`@<id[JRePG3
 R3
@@ -303,14 +303,14 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 nimm_@gen
 vinstructionmemory
 R1
-R11
+R2
 !i10b 1
 !s100 6>jnlWCg62QiF^iRiX?C81
 R3
@@ -328,13 +328,13 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 vMemoria32
 R1
-R11
+R2
 !i10b 1
 !s100 oLjQ]Qb`C9VE3a1DaRF6=0
 R3
@@ -346,20 +346,20 @@ R5
 8./../design/Memoria32.sv
 F./../design/Memoria32.sv
 !i122 0
-Z16 L0 26 94
+Z15 L0 26 94
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@memoria32
 vMemoria32Data
 R1
-R11
+R2
 !i10b 1
 !s100 ]NU@J;o]<e]AW?:CD;Fg21
 R3
@@ -371,20 +371,20 @@ R5
 8./../design/Memoria32Data.sv
 F./../design/Memoria32Data.sv
 !i122 0
-R16
+R15
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@memoria32@data
 vmux2
 R1
-R11
+R2
 !i10b 1
 !s100 9Hgm:_HaC7CH^93]dTO>S3
 R3
@@ -402,13 +402,13 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 vmux4
 R1
-R11
+R2
 !i10b 1
 !s100 PkRNb1:FWO8e2Pa@XbPjl1
 R3
@@ -426,13 +426,13 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 XPipe_Buf_Reg_PKG
 R1
-R11
+R2
 !i10b 1
 !s100 k?>B3>50o;E82z7G4HUZg2
 R3
@@ -450,7 +450,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -467,13 +467,13 @@ R5
 8./../design/ramOnChip32.v
 F./../design/ramOnChip32.v
 !i122 0
-Z17 L0 40 78
+Z16 L0 40 78
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -490,20 +490,20 @@ R5
 8./../design/ramOnChipData.v
 F./../design/ramOnChipData.v
 !i122 0
-R17
+R16
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 nram@on@chip@data
 vRegFile
 R1
-R11
+R2
 !i10b 1
 !s100 :?B`7Zn]Gb5m`Z5KL_^>03
 R3
@@ -521,14 +521,14 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@reg@file
 vriscv
 R1
-R11
+R2
 !i10b 1
 !s100 ZG:[k5[V9?jY[REj7dU`m2
 R3
@@ -546,13 +546,13 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 vtb_top
 R1
-R11
+R2
 !i10b 1
 !s100 <k4lG_MkNX?2l=l78L8cm0
 R3
@@ -570,7 +570,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10

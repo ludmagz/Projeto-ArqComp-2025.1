@@ -1,0 +1,599 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Windows/system32
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1753289166
+!i10b 1
+!s100 J@Bf42a<9Q9R;nJSZl2>B2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<L<IPQ9JZWn3<2d[DOPeJ2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1
+Z5 w1753288821
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/adder.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/adder.sv
+!i122 21
+Z6 L0 3 11
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1753289166.000000
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/adder.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+valu
+R0
+R1
+!i10b 1
+!s100 :oRXk>6<B58A]eh8H_FUi2
+R2
+IjK:3cWmNVAS9R`o0WU>O72
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/alu.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/alu.sv
+!i122 22
+L0 3 45
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/alu.sv|
+!i113 1
+R9
+R10
+vALUController
+R0
+R1
+!i10b 1
+!s100 iV]9L@_=]KADjN2VOB`Pa0
+R2
+I^bda55GD7A]1^^hn0]iSM3
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ALUController.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ALUController.sv
+!i122 23
+L0 8 37
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ALUController.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ALUController.sv|
+!i113 1
+R9
+R10
+n@a@l@u@controller
+vBranchUnit
+R0
+R1
+!i10b 1
+!s100 6mfj04GQ4<NdfP3N3I?:l2
+R2
+IMFMNl[a]df@GXUE_?^UEg3
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/BranchUnit.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/BranchUnit.sv
+!i122 24
+L0 3 26
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/BranchUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/BranchUnit.sv|
+!i113 1
+R9
+R10
+n@branch@unit
+vController
+R0
+R1
+!i10b 1
+!s100 J0;ndNiB8VKGgGijK7UDc3
+R2
+I9[AhbNHBmNKXKo25D]8R12
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Controller.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Controller.sv
+!i122 25
+L0 3 38
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Controller.sv|
+!i113 1
+R9
+R10
+n@controller
+vdatamemory
+R0
+R1
+!i10b 1
+!s100 PB?AGW4Dkm7[LMo5:bz002
+R2
+I9THVN>^5=9e`lAiIGbSTI2
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/datamemory.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/datamemory.sv
+!i122 26
+L0 3 100
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/datamemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/datamemory.sv|
+!i113 1
+R9
+R10
+vDatapath
+R0
+Z11 DXx4 work 16 Pipe_Buf_Reg_PKG 0 22 P4lX;2<iBUhPzfOa3kzW@1
+DXx4 work 16 Datapath_sv_unit 0 22 ab_8Bn8IH]lQznWGZcO[d1
+R1
+R3
+r1
+!s85 0
+!i10b 1
+!s100 cWkHWmncDlQL`5?j6eNGC1
+IgB62MWf<X=]H6ZmHSCRgY1
+!s105 Datapath_sv_unit
+S1
+R4
+R5
+Z12 8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Datapath.sv
+Z13 FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Datapath.sv
+!i122 27
+L0 5 312
+R7
+31
+R8
+Z14 !s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Datapath.sv|
+Z15 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Datapath.sv|
+!i113 1
+R9
+R10
+n@datapath
+XDatapath_sv_unit
+R0
+R11
+R1
+Vab_8Bn8IH]lQznWGZcO[d1
+r1
+!s85 0
+!i10b 1
+!s100 VF4Lf?iHQGf6gB@n8TId:0
+Iab_8Bn8IH]lQznWGZcO[d1
+!i103 1
+S1
+R4
+R5
+R12
+R13
+!i122 27
+L0 3 0
+R7
+31
+R8
+R14
+R15
+!i113 1
+R9
+R10
+n@datapath_sv_unit
+vflopr
+R0
+R1
+!i10b 1
+!s100 ElcDNl85mGL9dF?Xd3Za63
+R2
+IWGmmO]jDi[ZzOz4eiCm3R0
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/flopr.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/flopr.sv
+!i122 28
+L0 3 16
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/flopr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/flopr.sv|
+!i113 1
+R9
+R10
+vForwardingUnit
+R0
+R1
+!i10b 1
+!s100 CEcEo:_iR9UO6Xd4H`cAC3
+R2
+In]lnn8Wdk0SgefSibH7do2
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ForwardingUnit.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ForwardingUnit.sv
+!i122 29
+L0 3 18
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ForwardingUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ForwardingUnit.sv|
+!i113 1
+R9
+R10
+n@forwarding@unit
+vHazardDetection
+R0
+R1
+!i10b 1
+!s100 =:@:A`@P^b2GYnY^68bZa2
+R2
+I0GU@?P8hLD__hOAP`^@j42
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/HazardDetection.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/HazardDetection.sv
+!i122 30
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/HazardDetection.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/HazardDetection.sv|
+!i113 1
+R9
+R10
+n@hazard@detection
+vimm_Gen
+R0
+Z16 !s110 1753289167
+!i10b 1
+!s100 ]o6i0FGm_V`@<id[JRePG3
+R2
+I::cS<6;NP1Jg5ZUB=e9HF2
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/imm_Gen.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/imm_Gen.sv
+!i122 31
+L0 3 32
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/imm_Gen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/imm_Gen.sv|
+!i113 1
+R9
+R10
+nimm_@gen
+vinstructionmemory
+R0
+R16
+!i10b 1
+!s100 6>jnlWCg62QiF^iRiX?C81
+R2
+I3A=L:8j[LA49?XEZ3f`3o0
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/instructionmemory.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/instructionmemory.sv
+!i122 32
+L0 4 23
+R7
+r1
+!s85 0
+31
+Z17 !s108 1753289167.000000
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/instructionmemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/instructionmemory.sv|
+!i113 1
+R9
+R10
+vMemoria32
+R0
+R16
+!i10b 1
+!s100 1FjL2lU>nY@FN7_?gRN8Y3
+R2
+II:ThKWSX]h<A6OAn7kEoP2
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32.sv
+!i122 33
+Z18 L0 26 94
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32.sv|
+!i113 1
+R9
+R10
+n@memoria32
+vMemoria32Data
+R0
+R16
+!i10b 1
+!s100 ]NU@J;o]<e]AW?:CD;Fg21
+R2
+InmZOd=:`Ab`BU6Z:7^PO:0
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32Data.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32Data.sv
+!i122 34
+R18
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32Data.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32Data.sv|
+!i113 1
+R9
+R10
+n@memoria32@data
+vmux2
+R0
+R16
+!i10b 1
+!s100 9Hgm:_HaC7CH^93]dTO>S3
+R2
+IT7k[;I`G7F0;cIAW<9<463
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux2.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux2.sv
+!i122 35
+L0 3 12
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux2.sv|
+!i113 1
+R9
+R10
+vmux4
+R0
+R16
+!i10b 1
+!s100 PkRNb1:FWO8e2Pa@XbPjl1
+R2
+ITHBDM?=niMg?78O9Y[QCV1
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux4.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux4.sv
+!i122 36
+L0 3 14
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux4.sv|
+!i113 1
+R9
+R10
+XPipe_Buf_Reg_PKG
+R0
+R16
+!i10b 1
+!s100 k?>B3>50o;E82z7G4HUZg2
+R2
+IP4lX;2<iBUhPzfOa3kzW@1
+VP4lX;2<iBUhPzfOa3kzW@1
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegPack.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegPack.sv
+!i122 40
+L0 1 0
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegPack.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegPack.sv|
+!i113 1
+R9
+R10
+n@pipe_@buf_@reg_@p@k@g
+vramOnChip32
+R16
+!i10b 1
+!s100 ANVMcJ>zoMilMS0;3XPLA0
+R2
+IbNCQi7^dz^BT?:O8aS?@H3
+R3
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChip32.v
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChip32.v
+!i122 37
+Z19 L0 40 78
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChip32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChip32.v|
+!i113 1
+Z20 o-work work
+R10
+nram@on@chip32
+vramOnChipData
+R16
+!i10b 1
+!s100 _gV6BH4AzTX?eTUV22eHj0
+R2
+IE@6D][1R:I`>ZR_lMM[b30
+R3
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChipData.v
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChipData.v
+!i122 38
+R19
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChipData.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChipData.v|
+!i113 1
+R20
+R10
+nram@on@chip@data
+vRegFile
+R0
+R16
+!i10b 1
+!s100 :?B`7Zn]Gb5m`Z5KL_^>03
+R2
+I^JmO@d`@IPNUIj2SJZNl^1
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegFile.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegFile.sv
+!i122 39
+L0 3 35
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegFile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegFile.sv|
+!i113 1
+R9
+R10
+n@reg@file
+vriscv
+R0
+R16
+!i10b 1
+!s100 ZG:[k5[V9?jY[REj7dU`m2
+R2
+INeBc7^L?93lFjz@`UXK_O1
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RISC_V.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RISC_V.sv
+!i122 41
+L0 3 71
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RISC_V.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RISC_V.sv|
+!i113 1
+R9
+R10
+vtb_top
+R0
+!s110 1753289168
+!i10b 1
+!s100 <k4lG_MkNX?2l=l78L8cm0
+R2
+If`kLM@DEI208eV_@:dGCG1
+R3
+S1
+R4
+R5
+8D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/tb_top.sv
+FD:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/tb_top.sv
+!i122 42
+L0 3 62
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/tb_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/tb_top.sv|
+!i113 1
+R9
+R10

@@ -1,0 +1,53 @@
+Wed Jul 23 14:23:54 -0300 2025
+Trace back: window name "source1" already exists in parent
+    while executing
+"frame [GetActiveWindowFooter].$name"
+    (procedure "Console::CreateWindowFooter" line 3)
+    invoked from within
+"Console::CreateWindowFooter [$frame_name cget -windowname]"
+    (object "::.main_pane.source1" method "::mtiwidgets::WindowObj::GetClientFooter" body line 23)
+    invoked from within
+"$windowobj GetClientFooter"
+    (object "::.main_pane.source1.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::UpdateSourceState" body line 21)
+    invoked from within
+"UpdateSourceState"
+    (object "::.main_pane.source1.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::Activate" body line 6)
+    invoked from within
+".main_pane.source1.interior.cs.body.srcobj Activate .main_pane.source1"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {.main_pane.source1.interior.cs.body.srcobj Activate} .main_pane.source1"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-activatecommand) $frame_name"
+    (object "::.main_pane.source1" method "::mtiwidgets::WindowObj::Activate" body line 16)
+    invoked from within
+"$windowobj Activate """
+    (object "::.vcop" method "::vsimwidgets::Vcop::ActualActivate" body line 36)
+    invoked from within
+"::.vcop ActualActivate"
+    (in namespace inscope "::vsimwidgets::Vcop" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Vcop {::.vcop ActualActivate}"
+    ("after" script)
+  <2:C:/InstallModelSim/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {window name "source1" already exists in parent}
+  <1:eval:1: ::tk::dialog::error::bgerror {window name "source1" already exists in parent}
+Wed Jul 23 14:24:29 -0300 2025
+Trace back: window name "source1" already exists in parent
+    while executing
+"frame [GetActiveWindowFooter].$name"
+    (procedure "Console::CreateWindowFooter" line 3)
+    invoked from within
+"Console::CreateWindowFooter [$frame_name cget -windowname]"
+    (object "::.main_pane.source1" method "::mtiwidgets::WindowObj::Activate" body line 24)
+    invoked from within
+"$windowobj Activate """
+    (object "::.vcop" method "::vsimwidgets::Vcop::ActualActivate" body line 36)
+    invoked from within
+"::.vcop ActualActivate"
+    (in namespace inscope "::vsimwidgets::Vcop" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Vcop {::.vcop ActualActivate}"
+    ("after" script)
+  <2:C:/InstallModelSim/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {window name "source1" already exists in parent}
+  <1:proc:24: ::tk::dialog::error::bgerror {window name "source1" already exists in parent}

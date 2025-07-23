@@ -1,0 +1,158 @@
+D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux2.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Controller.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RISC_V.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RISC_V.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscv
+
+Top level modules:
+	riscv
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux4.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/mux4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/tb_top.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/tb_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32Data.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32Data.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memoria32Data
+
+Top level modules:
+	Memoria32Data
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/alu.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/datamemory.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/datamemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datamemory
+
+Top level modules:
+	datamemory
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/instructionmemory.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/instructionmemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instructionmemory
+
+Top level modules:
+	instructionmemory
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/imm_Gen.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/imm_Gen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module imm_Gen
+
+Top level modules:
+	imm_Gen
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegPack.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegPack.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package Pipe_Buf_Reg_PKG
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ALUController.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ALUController.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUController
+
+Top level modules:
+	ALUController
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/BranchUnit.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/BranchUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BranchUnit
+
+Top level modules:
+	BranchUnit
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegFile.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/RegFile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Datapath.sv {2 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Datapath.sv(3): (vlog-13233) Design unit "Datapath_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package Datapath_sv_unit
+-- Importing package Pipe_Buf_Reg_PKG
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/Memoria32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/adder.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChipData.v {1 {vlog -work work -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChipData.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ramOnChipData
+
+Top level modules:
+	ramOnChipData
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/HazardDetection.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/HazardDetection.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HazardDetection
+
+Top level modules:
+	HazardDetection
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ForwardingUnit.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ForwardingUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ForwardingUnit
+
+Top level modules:
+	ForwardingUnit
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/flopr.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/flopr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChip32.v {1 {vlog -work work -stats=none D:/Users/mrs5/Documents/Projeto-ArqComp-2025.1/design/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}}
