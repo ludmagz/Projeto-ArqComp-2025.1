@@ -52,10 +52,10 @@ module datamemory #(
         rd <= Dataout;    // recebe todes os blocos de Dataout
         3'b100:  //LBU
         case (a[1:0])
-          2'b00: rd <= {24{1'b0}, Dataout[7:0]};   // recebe o bloco 0 de Dataout
-          2'b01: rd <= {24{1'b0}, Dataout[15:8]};  // recebe o bloco 1 de Dataout
-          2'b10: rd <= {24{1'b0}, Dataout[23:16]}; // recebe o bloco 2 de Dataout
-          2'b11: rd <= {24{1'b0}, Dataout[31:24]}; // recebe o bloco 3 de Dataout
+          2'b00: rd <= {{24{1'b0}}, Dataout[7:0]};   // recebe o bloco 0 de Dataout
+          2'b01: rd <= {{24{1'b0}}, Dataout[15:8]};  // recebe o bloco 1 de Dataout
+          2'b10: rd <= {{24{1'b0}}, Dataout[23:16]}; // recebe o bloco 2 de Dataout
+          2'b11: rd <= {{24{1'b0}}, Dataout[31:24]}; // recebe o bloco 3 de Dataout
         endcase
         default: rd <= Dataout;
       endcase
