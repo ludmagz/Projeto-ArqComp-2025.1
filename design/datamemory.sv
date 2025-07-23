@@ -36,20 +36,24 @@ module datamemory #(
 
     if (MemRead) begin
       case (Funct3)
-        3'b000: //LB
+          
+         3'b000: // LB
         case (a[1:0])
-          2'b00: rd <= Dataout[7:0];   // recebe o bloco 0 de Dataout
-          2'b01: rd <= Dataout[15:8];  // recebe o bloco 1 de Dataout
-          2'b10: rd <= Dataout[23:16]; // recebe o bloco 2 de Dataout
-          2'b11: rd <= Dataout[31:24]; // recebe o bloco 3 de Dataout
+          2'b00: rd <= {{24{Dataout[7]}},  Dataout[7:0]};      // recebe o bloco 0 de Dataout
+          2'b01: rd <= {{24{Dataout[15]}}, Dataout[15:8]};      // recebe o bloco 1 de Dataout
+          2'b10: rd <= {{24{Dataout[23]}}, Dataout[23:16]};     // recebe o bloco 2 de Dataout
+          2'b11: rd <= {{24{Dataout[31]}}, Dataout[31:24]};     // recebe o bloco 3 de Dataout
         endcase
-        3'b001:  //LH
+        
+        3'b001:  // LH
         case (a[0])
-          1'b0: rd <= Dataout[15:0];  // recebe os blocos 0 e 1 de Dataout
-          1'b1: rd <= Dataout[31:16]; // recebe os blocos 2 e 3 de Dataout
+          1'b0: rd <= {{16{Dataout[15]}}, Dataout[15:0]};  // recebe os blocos 0 e 1 de Dataout
+          1'b1: rd <= {{16{Dataout[31]}}, Dataout[31:16]}; // recebe os blocos 2 e 3 de Dataout
         endcase
-        3'b010:  //LW
+
+        3'b010:  // LW
         rd <= Dataout;    // recebe todes os blocos de Dataout
+          
         3'b100:  //LBU
         case (a[1:0])
           2'b00: rd <= {{24{1'b0}}, Dataout[7:0]};   // recebe o bloco 0 de Dataout
@@ -57,10 +61,14 @@ module datamemory #(
           2'b10: rd <= {{24{1'b0}}, Dataout[23:16]}; // recebe o bloco 2 de Dataout
           2'b11: rd <= {{24{1'b0}}, Dataout[31:24]}; // recebe o bloco 3 de Dataout
         endcase
+          
         default: rd <= Dataout;
       endcase
-    end else if (MemWrite) begin
+        
+    end if (MemWrite) begin
+        
       case (Funct3)
+          
         3'b000: begin  //SB
           case (a[1:0])
             2'b00: begin Wr <= 4'b0001; Datain[7:0] <= wd; end
@@ -69,20 +77,24 @@ module datamemory #(
             2'b11: begin Wr <= 4'b1000; Datain[31:24] <= wd; end
           endcase
         end
+          
         3'b001: begin  //SH
           case (a[0])
             1'b0: begin Wr <= 4'b0011; Datain[15:0] <= wd; end
             1'b1: begin Wr <= 4'b1100; Datain[31:16] <= wd; end
           endcase
         end
+          
         3'b010: begin  //SW
           Wr <= 4'b1111;
           Datain <= wd;
         end
+          
         default: begin
           Wr <= 4'b1111;
           Datain <= wd;
         end
+          
       endcase
     end
   end
