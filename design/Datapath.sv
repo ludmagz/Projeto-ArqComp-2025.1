@@ -9,8 +9,11 @@ module Datapath #(
     parameter DATA_W = 32,  // Data WriteData
     parameter DM_ADDRESS = 9,  // Data Memory Address
     parameter ALU_CC_W = 4  // ALU Control Code Width
-) (
-    input  logic                 clk,
+) 
+
+
+(
+    input logic clk,
     reset,
     RegWrite,
     MemtoReg,  // Register file writing enable   // Memory or ALU MUX
@@ -18,6 +21,7 @@ module Datapath #(
     MemWrite,  // Register file or Immediate MUX // Memroy Writing Enable
     MemRead,  // Memroy Reading Enable
     Branch,  // Branch Enable
+    Halt,
     input  logic [          1:0] ALUOp,
     input  logic [ALU_CC_W -1:0] ALU_CC,         // ALU Control Code ( input of the ALU )
     output logic [          6:0] opcode,
@@ -38,6 +42,11 @@ module Datapath #(
     output logic [DATA_W-1:0] rd_data  // read data
 );
 
+
+
+
+
+
   logic [PC_W-1:0] PC, PCPlus4, Next_PC;
   logic [INS_W-1:0] Instr;
   logic [DATA_W-1:0] Reg1, Reg2;
@@ -56,6 +65,10 @@ module Datapath #(
   id_ex_reg B;
   ex_mem_reg C;
   mem_wb_reg D;
+
+
+
+
 
   // next PC
   adder #(9) pcadd (
@@ -81,6 +94,10 @@ module Datapath #(
       PC,
       Instr
   );
+
+
+
+
 
   // IF_ID_Reg A;
   always @(posedge clk) begin
@@ -130,6 +147,11 @@ module Datapath #(
       ExtImm
   );
 
+
+
+
+
+
   // ID_EX_Reg B;
   always @(posedge clk) begin
     if ((reset) || (Reg_Stall) || (PcSel))   // initialization or flush or generate a NOP if hazard
@@ -141,6 +163,7 @@ module Datapath #(
       B.MemWrite <= 0;
       B.ALUOp <= 0;
       B.Branch <= 0;
+      B.Halt <= 0;
       B.Curr_Pc <= 0;
       B.RD_One <= 0;
       B.RD_Two <= 0;
@@ -159,6 +182,7 @@ module Datapath #(
       B.MemWrite <= MemWrite;
       B.ALUOp <= ALUOp;
       B.Branch <= Branch;
+      B.Halt <= Halt;
       B.Curr_Pc <= A.Curr_Pc;
       B.RD_One <= Reg1;
       B.RD_Two <= Reg2;
@@ -221,12 +245,19 @@ module Datapath #(
       B.Curr_Pc,
       B.ImmG,
       B.Branch,
+      B.Halt,
       ALUResult,
       BrImm,
       Old_PC_Four,
       BrPC,
       PcSel
   );
+
+
+
+
+
+
 
   // EX_MEM_Reg C;
   always @(posedge clk) begin
@@ -278,6 +309,11 @@ module Datapath #(
   assign wr_data = C.RD_Two;
   assign rd_data = ReadData;
 
+
+
+
+
+
   // MEM_WB_Reg D;
   always @(posedge clk) begin
     if (reset)   // initialization
@@ -302,6 +338,12 @@ module Datapath #(
       D.Curr_Instr <= C.Curr_Instr;  //Debug Tmp
     end
   end
+
+
+
+
+
+
 
   //--// The LAST Block
   mux2 #(32) resmux (

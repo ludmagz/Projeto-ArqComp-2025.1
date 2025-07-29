@@ -27,7 +27,7 @@ module imm_Gen (
         1'b0
       };
 
-        default: Imm_out = {32'b00000000000000000000000000000111};
+        default: Imm_out = {32'b00000000000000000000000000000000};
 
     endcase
 
