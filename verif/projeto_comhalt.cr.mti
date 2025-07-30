@@ -1,4 +1,32 @@
-D:/Users/mrs5/Projeto-ArqComp-2025.1/design/RegFile.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Projeto-ArqComp-2025.1/design/RegFile.sv
+D:/Users/mrs5/Projeto-ArqComp-2025.1/design/RegPack.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Projeto-ArqComp-2025.1/design/RegPack.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package Pipe_Buf_Reg_PKG
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Users/mrs5/Projeto-ArqComp-2025.1/design/RISC_V.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Projeto-ArqComp-2025.1/design/RISC_V.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscv
+
+Top level modules:
+	riscv
+
+} {} {}} D:/Users/mrs5/Projeto-ArqComp-2025.1/design/mux4.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Projeto-ArqComp-2025.1/design/mux4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} D:/Users/mrs5/Projeto-ArqComp-2025.1/design/ALUController.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Projeto-ArqComp-2025.1/design/ALUController.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUController
+
+Top level modules:
+	ALUController
+
+} {} {}} D:/Users/mrs5/Projeto-ArqComp-2025.1/design/RegFile.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Projeto-ArqComp-2025.1/design/RegFile.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module RegFile
 
@@ -11,6 +39,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	Memoria32
+
+} {} {}} D:/Users/mrs5/Projeto-ArqComp-2025.1/design/tb_top.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Projeto-ArqComp-2025.1/design/tb_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
 
 } {} {}} D:/Users/mrs5/Projeto-ArqComp-2025.1/design/adder.sv {1 {vlog -work work -sv -stats=none D:/Users/mrs5/Projeto-ArqComp-2025.1/design/adder.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
