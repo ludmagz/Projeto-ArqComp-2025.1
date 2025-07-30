@@ -146,7 +146,7 @@ module Datapath #(
 
 
   assign reg_num = D.rd;
-  assign reg_data = WrmuxSrc;
+  assign reg_data = WrmuxOut;
   assign reg_write_sig = D.RegWrite;
 
 
