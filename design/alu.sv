@@ -38,7 +38,7 @@ module alu#(
                 4'b1100:  // BLT | SLT | SLTI
                         ALUResult = ($signed(SrcA) < $signed(SrcB)) ? 1 : 0;
                 4'b1101:  // BNE
-                        ALUResult = ($signed(SrcA) != $signed(SrcB)) ? 1 : 0;
+                        ALUResult = (SrcA != SrcB) ? 1 : 0;
         
                 default:
                         ALUResult = 0;
