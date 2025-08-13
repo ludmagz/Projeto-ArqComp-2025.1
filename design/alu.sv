@@ -28,11 +28,11 @@ module alu#(
                 4'b0101:  // SRLI
                         ALUResult = SrcA >> SrcB;        
                 4'b0110:  // SUB
-                        ALUResult = SrcA - SrcB;
+                        ALUResult = $signed(SrcA) - $signed(SrcB);
                 4'b0111:  // SRAI
                         ALUResult = $signed(SrcA) >>> SrcB[4:0];
                 4'b1000:  // BEQ
-                        ALUResult = ($signed(SrcA) == $signed(SrcB)) ? 1 : 0;
+                        ALUResult = (SrcA == SrcB) ? 1 : 0;
                 4'b1001:  // BGE
                         ALUResult = ($signed(SrcA) >= $signed(SrcB)) ? 1 : 0;
                 4'b1100:  // BLT | SLT | SLTI
